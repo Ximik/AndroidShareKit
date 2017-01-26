@@ -1,7 +1,3 @@
-package share;
-
-/**
- * Created by ihor on 26.01.17.
- */
+package com.voidcomet.sharekit;
 
 public enum Provider {FACEBOOK,VKONTAKTE,ODNOKLASSNIKI,GOOGLE,TWITTER}
