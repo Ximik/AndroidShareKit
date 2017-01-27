@@ -15,7 +15,7 @@ public class ShareKit {
 
     public void share(Activity activity, Provider provider, ShareItem item) {
         switch (provider) {
-            case Provider.FACEBOOK:
+            case FACEBOOK:
                 ShareLinkContent shareLinkContent = new ShareLinkContent.Builder()
                         .setContentTitle(item.getTitle())
                         .setContentDescription(item.getDescription())
